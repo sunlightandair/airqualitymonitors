@@ -64,7 +64,7 @@ float methaneRo= 1.1 , HCHORo=1, HSulfideRo= 5.7; //calibrated values (user defi
 DHT dht(DHTPIN, DHTTYPE);
 //**************************************
 
-SoftwareSerial mySerial(6, 7); //Assign 2 as Rx and 3 as Tx (Be careful changing these)
+SoftwareSerial mySerial(6, 7); //Assign 6 as Rx and 7 as Tx (Be careful changing these)
 
 float maxv, methane, methaneScale, HCHO, HCHOScale, HSulfide, HSulfideScale, ratio=0, concentration = 0, PM = 0, methaneV, HCHOV, HSulfideV, methaneRs, HCHORs, HSulfideRs;
 int humi, kelv, cel, fah, circ = 5, heat = 6;
